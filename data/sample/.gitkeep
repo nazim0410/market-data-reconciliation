@@ -1,0 +1,17 @@
+financial-trade-reconciliation/
+│
+├── README.md                  ← we'll replace this
+├── docs/
+│   ├── data_mapping.md        ← BA documentation
+│   └── business_rules.md      ← BA documentation
+├── data/
+│   └── sample/
+│       └── .gitkeep           ← placeholder (just an empty file)
+├── ingestion/
+│   └── .gitkeep
+├── reconciliation/
+│   └── .gitkeep
+├── reporting/
+│   └── .gitkeep
+└── dashboard/
+    └── .gitkeep
