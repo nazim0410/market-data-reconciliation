@@ -1,0 +1,9 @@
+ticker,days_compared,mismatch_count,mismatch_rate_pct,avg_abs_diff,max_abs_diff
+TSLA,43,0,0.0,0.0,0.0
+NVDA,43,0,0.0,0.0,0.0
+MSFT,43,0,0.0,0.0,0.0
+GOOGL,43,0,0.0,0.0,0.0
+GME,43,0,0.0,0.0,0.0
+CVNA,43,0,0.0,0.0,0.0
+AMZN,43,0,0.0,0.0,0.0
+AAPL,43,0,0.0,0.0,0.0
