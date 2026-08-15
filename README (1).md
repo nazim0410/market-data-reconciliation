@@ -33,7 +33,7 @@ In practice, cross-vendor price discrepancies typically arise from adjusted-vs-u
 
 ## Run it
 
-Open `run_in_colab.ipynb` in [Google Colab](https://colab.research.google.com) and run the cells top to bottom. You'll need a free Alpha Vantage API key (instant, no email confirmation — https://www.alphavantage.co/support/#api-key). No local setup or database server required.
+Open `Python_Notebook.ipynb` in [Google Colab](https://colab.research.google.com) and run the cells top to bottom. You'll need a free Alpha Vantage API key (instant, no email confirmation — https://www.alphavantage.co/support/#api-key). No local setup or database server required.
 
 ## Stack
 
@@ -41,10 +41,10 @@ Open `run_in_colab.ipynb` in [Google Colab](https://colab.research.google.com) a
 
 ## Files
 
-- `run_in_colab.ipynb` — Full pipeline: fetch, compare, validate, export
+- `Python_Notebook.ipynb` — Full pipeline: fetch, compare, validate, export
 - `reconciliation_detail.csv` — Every compared ticker/date row with diff and status
 - `reconciliation_summary.csv` — Mismatch rate and deviation stats by ticker
-- `README.md` — this file
+- `README(1).md` — this file
 
 ## Next steps
 
