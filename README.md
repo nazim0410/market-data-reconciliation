@@ -48,8 +48,4 @@ Python, SQL (SQLite), pandas, yfinance, Tableau
 
 ---
 
-## Resume bullet points
 
-- Built a two-source financial data reconciliation tool in Python and SQL, comparing daily closing prices across Yahoo Finance and Alpha Vantage APIs for 8 tickers over a 2-month window, validating detection logic with controlled test cases before certifying results on live data
-- Diagnosed and resolved live API failures (blocked requests, tier restrictions, rate limits) across two market data providers, adapting the ingestion approach to keep the pipeline functional within free-tier constraints
-- Designed and published an interactive Tableau dashboard visualizing price-variance trends and mismatch rates across a multi-source reconciliation dataset, translating SQL output into a stakeholder-ready view
