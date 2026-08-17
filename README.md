@@ -21,9 +21,6 @@ Before trusting the comparison against real data, I ran it against a fake test c
 
 Yahoo Finance and Alpha Vantage agreed on every single close price in this window. That's not really a surprise for large, liquid stocks like these — both vendors are pulling from similarly clean data. Where you'd expect two providers to actually disagree is around stock splits or dividends, where "adjusted" vs "unadjusted" pricing conventions differ. That's the natural next step if I extend this.
 
-## Getting a couple of the data sources working was its own thing
-
-Worth noting: my original plan was Yahoo Finance vs. Stooq, but Stooq now blocks plain API requests behind a JavaScript check, so that was a dead end. Alpha Vantage's free tier also changed recently, full historical data now requires a paid plan, so I had to switch to the `compact` output size and pace the requests to stay under the daily limit. Small thing, but a good reminder that "free API" doesn't always mean stable.
 
 ## How to run it
 
